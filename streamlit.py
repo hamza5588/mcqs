@@ -196,9 +196,10 @@ with st.form("user input"):
                       
 
 
-                            pdf.output("MCQs_without_color.pdf")
+                            pdf.output("MCQs_without_colorgenerator.pdf")
                         else:
                             st.error("Error in the pdf data")
+                            
 
                 else:
                     print(type(response))
