@@ -1,0 +1,1 @@
+web: streamlit streamlit.py
